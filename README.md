@@ -4,6 +4,7 @@ Here, you can find the Machine Learning related projects that include the follow
 - PCA
 - Classification
 - Regressions
+- Clustering
 - Deep Learning
 - Image Processing
 - Recommendation Systems
