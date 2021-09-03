@@ -1,7 +1,7 @@
 # PCA (Principal Component Analysis
 
 The PCA technique's objective is to reduce the complexity of your machine learning model. But there is a trade-off between complexity and accuracy/precision.
-As the model loses complexity, often it will lose its ability to make right prediction or classifications. So it's crucial to analyse and test different PCA configurations
+As the model loses complexity, often it will lose its ability to make right predictions or classifications. So it's crucial to analyse and test different PCA configurations
 so the model can have the best result possible.
 
 ## pca.py
