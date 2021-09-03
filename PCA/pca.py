@@ -32,8 +32,10 @@ plt.figure(figsize=(8,6))
 plt.scatter(x_pca[:,0],x_pca[:,1],c=cancer['target'],cmap='plasma')
 plt.xlabel('First principal component')
 plt.ylabel('Second Principal Component')
+plt.show()
 
 # Plot how those 2 dimensions are compared to the original data from the cancer dataset
 df_comp = pd.DataFrame(pca.components_,columns=cancer['feature_names'])
 plt.figure(figsize=(12,6))
 sns.heatmap(df_comp,cmap='plasma',)
+plt.show()
